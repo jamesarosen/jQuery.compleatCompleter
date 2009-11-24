@@ -6,11 +6,11 @@ James Smith's [jQuery.tokeninput](http://loopj.com/2009/04/25/jquery-plugin-toke
 
 Rafudu's [jQuery.tagbox](http://saynotofastfood.info/tagbox/examples/) does nifty things for tag inputs, but it doesn't have autocompletion. One more library that solves a narrowly-defined problem well.
 
-=== The Dragon
+### The Dragon
 
 So I started out on a new quest. My dragon: a customizable jQuery-based autocompletion framework that is well-suited for a variety of use cases. I like jumping in to TDD coding as much as the next fellow, but I'm not fluent in Javascript yet and I knew this was going to be a complicated problem.
 
-=== The Townsfolk
+### The Townsfolk
 
 `You are in TOWN. There are many TOWNSFOLK wandering about.`
 
@@ -31,7 +31,7 @@ And now the smaller ones, which all have the same form:
 1. What happens when the user hits <abbr title="Return">`↵`</abbr> right after entering the field? After typing a few characters? After highlighting a completion? After inserting a completion? Do any of these answers change if the field in question is the only (non-hidden) field in the form? If it's the *last* (non-hidden) field in the form?
 1. Similarly for <abbr title="Enter">`⌤`</abbr>, <abbr title="Tab">`↹`</abbr>, <abbr title="Semicolon">`;`</abbr>, <abbr title="Comma">`,`</abbr>, and <abbr title="Space">`⎵`</abbr>.
 
-=== Fellow Adventurers
+### Fellow Adventurers
 
 Talking to all those townsfolk meant eating lots of stew. Satiated and eager to slay my dragon, I decided to leave town.
 
@@ -73,6 +73,6 @@ And some helper methods that users of the library can easily chain together to c
 * `insertHightlightedAutocompletion()` - insert the completion as a full item in the list, leave the cursor at the end of the item
 * `propagateEventIfLastField()` and `propagateEvent()`
 
-=== The Adventure
+### The Adventure
 
 I'd love to have you join this adventure. I've [set up camp](http://github.com/jamesarosen/jQuery.compleatCompleter) in the `FOREST OF GYTHUB`. There probably aren't a lot of `GOLD PIECES` to be found with this dragon, but we might earn some experience.
